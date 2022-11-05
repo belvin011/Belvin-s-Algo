@@ -97,5 +97,4 @@ int main(){
     //conversion of binary to the direct int..!
     auto num=0b1011;
 	cout<<num;      //directly converts the binary number to the integer..!
-
 }
