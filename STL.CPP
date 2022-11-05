@@ -44,7 +44,7 @@ int main(){
 
 
 
-    vector<int>v1={1,2,3};
+        vector<int>v1={1,2,3};
 	vector<int>v2={9,8,7};
 	swap(v1,v2);               //Swaps the vector..!
 	for(auto it:v1){
@@ -75,7 +75,7 @@ int main(){
 
 	cout<<"\n";
     
-    //2D VECTORS..!
+        //2D VECTORS..!
 	vector<vector<int>>ans; //DECLARING OF 2D VECTOR..!
 	for(int i=1;i<4;i++){
 		vector<int>v;
@@ -167,7 +167,7 @@ int main(){
 
 
 
-	//MAP
+//MAP
 //KEY,VALUE
 //KEYS ARE ALWAYS UNIQUE AND IN SORTED ORDER..!
 #include<bits/stdc++.h>
