@@ -63,6 +63,20 @@ int main(){
     int n=16;
     int ans=n&n-1==0;  //if ans==0 yes power of 2 else not power of 2..!
     cout<<ans;
+	
+	
+    //power of 4..!
+    int n=64;
+    if(n>0 && n&(n-1)==0 && n%3==1) //if it is true then it is power of 4 else not power of 4..!
+	   
+    //power of 8..!
+    int n=256;
+    if(n>0 && n&(n-1)==0 && n%7==1) //if it is true then it is power of 8 else not power of 8..!
+	    
+    //power of 16..!
+    int n=64;
+    if(n>0 && n&(n-1)==0 && n%15==1) //if it is true then it is power of 16 else not power of 16..!
+
 
     //count number of setbits..!
     int ans=__builtin_popcount(n);
