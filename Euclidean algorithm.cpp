@@ -13,6 +13,26 @@ int main(){
 	cout<<gcd<<" "<<lcm;
 }
 
+//iterative method..!
+//log n time complexity..!
+#include<bits/stdc++.h>
+using namespace std;
+int gcd(int a,int b){
+	while(a!=0 and b!=0){
+		if(a>b) a=a%b;
+		else b=b%a;	
+	}
+	if(a!=0) return a;
+	else return b;
+}
+int main(){
+	int a,b;
+	cin>>a>>b;
+	int ans=gcd(a,b);
+
+	cout<<ans<<"\n"; //gcd..!
+	cout<<a*b/ans<<"\n"; //lcd..!
+}
 //we can simply find gcd in c++ by using below functio..!
 // int a=12;
 // int b=13;
