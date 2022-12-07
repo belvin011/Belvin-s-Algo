@@ -16,6 +16,21 @@ int FindPower(int base,int n){
     }
     return res;
 }
+
+//The code for modulo operation(for calculation of big integers)..!
+// int power(int base,int n,int modulo)
+//     while(n){
+//         if(n%2!=0){  
+//             res=(res*base)%modulo;
+//             n--;
+//         }
+//         else{
+//             base=(base*base)%modulo;
+//             n=n/2;
+//         }
+//     }
+//     return res;
+
 int main(){
     int a,b;
     cin>>a>>b;
