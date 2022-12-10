@@ -34,7 +34,7 @@ int FindPower(int base,int n){
 int main(){
     int a,b;
     cin>>a>>b;
-    cout<<FindPower(a,b);
+    cout<<FindPower(a,b)<<"\n";
 
     //cout<<pow(a,b); //This simple function also work in same time complexity..!
 }
