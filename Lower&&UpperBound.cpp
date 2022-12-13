@@ -12,7 +12,7 @@ int main(){
 	int ind=lower_bound(v.begin(),v.end(),5)-v.begin();
 	if(ind!=n and v[ind]==5)  cout<<ind<<"\n";//if true gives the position of index..!
 	else cout<<-1<<"\n";
-}
+ }
 
 
 
@@ -30,5 +30,5 @@ int main(){
     ind--; //decrement the value for getting the respective positions..!
     if(ind>=0 and v[ind]==5) cout<<ind<<"\n";
     else cout<<-1<<"\n";
-}
+ }
 
