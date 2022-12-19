@@ -269,7 +269,7 @@ int main(){
 	while(!qt.empty()){
 		cout<<qt.front()<<" ";
 		qt.pop();
-	}
+    }
 
 	
 
