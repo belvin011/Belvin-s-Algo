@@ -10,7 +10,7 @@ void Sliding_Winddow(int n,int array[],int k){
             Max_Sum=max(Current_Sum,Max_Sum);
             Current_Sum-=array[i-(k-1)];  //Removes 0,1,2,3.....
 
-        }
+       }
     }
     cout<<Max_Sum;
 }
