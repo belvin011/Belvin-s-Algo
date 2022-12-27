@@ -8,11 +8,11 @@ int FindPower(int base,int n){
         if(n%2!=0){  //if n is odd reduce n and multiply result with base..!
             res=res*base;
             n--;
-        }
+         }
         else{
             base=base*base;
             n=n/2;
-        }
+         }
     }
     return res;
 }
