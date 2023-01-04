@@ -11,6 +11,6 @@ int gcd(int a,int b) { if (a == 0) return b; return gcd(b%a, a);}
 bool isPrime(int N){ for(int i=2;i*i<=N;++i){if(N%i==0) return false;}return true;}
 int fpow(int n, int k, int p) {int r = 1; for (; k; k >>= 1) {if (k & 1) r = r * n%p; n = n * n%p;} return r;} 
 
-int main(){ int t; cin>>t; while(t--){  }
+int main(){ int t; cin>>t; while(t--) {  }
    
 }
