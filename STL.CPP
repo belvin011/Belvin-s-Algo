@@ -1,7 +1,7 @@
 //VECTORS IN C++
 #include<bits/stdc++.h>
 using namespace std;
-int main(){
+int main() {
 
 	vector<int>v; //Declaration of a vector..!
 
